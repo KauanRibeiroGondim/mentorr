@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorr</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    
+<section class="flex w-full h-screen">
+    <div class="bg-slate-900 h-full w-2/5 flex items-center justify-center">
+        <figure>
+            <img src="./img/bolinha.svg" class="w-24 h-24">
+        </figure>
+    </div>
+    <div class="flex justify-center w-3/5 h-full">
+        <div class="h-full flex flex-col justify-center gap-4 w-7/12">
+            <p class="font-bold text-lg text-left">Login</p>
+            <div class="flex">
+                <div class="border-b-4 border-b-blue-600 h-10 w-1/2 flex justify-center items-center">
+                    <p class="text-blue-600 font-bold">Sou cliente</p>
+                </div>
+                <div class="border-b-2 h-10 w-1/2 flex justify-center items-center">
+                    <p class="text-slate-blue-600 ">Sou Mentor</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="#">Email</label>
+                <div class="border-2 rounded p-2">
+                    <input class="focus:outline-none w-full" type="text" placeholder="Insira seu usuário ou e-mail">
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="#">Área de Conhecimento</label>
+                <div class="flex border-2 rounded p-2">
+                    <input class="w-full focus:outline-none" type="text" placeholder="* * * * * * * * *">
+                    <img src="./img/olho.svg">
+                </div>
+            </div>
+            <button class="bg-blue-600 text-white px-8 py-3 font-semibold rounded-lg">Logar</button>
+            <div class="flex h-8 mt-2">
+
+                <div class="flex flex-col w-5/12">
+                    <div class="h-1/2"></div>
+                    <div class="border-t-2 h-1/2"></div>
+                </div>
+                <div class="flex justify-center w-2/12">
+                    <p>ou</p>
+                </div>
+                <div class="flex flex-col w-5/12">
+                    <div class="h-1/2"></div>
+                    <div class="border-t-2 h-1/2"></div>
+                </div>
+            </div>
+            <div class="border-2 flex justify-center px-8 py-3 font-semibold rounded-lg gap-4">
+                <img src="./img/gugu.svg" alt="">
+                <p>Entrar com o Google</p>
+            </div>
+            <p class="text-blue-600 underline">Esqueci a senha</p>
+            <p>Ainda não tem uma conta?</p>
+            <p class="text-blue-600 underline"> Crie uma conta</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

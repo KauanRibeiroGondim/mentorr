@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorr</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    
+    <header class="px-8 md:px-0">
+        <!--row 1-->
+        <div class="container mx-auto flex flex-col md:flex-row py-6 md:py-0 gap-6 md:gap-0 justify-between items-center md:h-24">
+            <div>
+                <img src="img/logo-mentorr.svg" alt="logotipo Mentorr">
+            </div>
+            <div class="flex gap-4 md:gap-12 items-center">
+                <div class="flex gap-2">
+                    <a href="/">For Business</a>
+                    <svg class="w-5" aria-colspan="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+                  
+                <button class="bg-blue-600 text-white px-8 py-3 font-semibold rounded-lg">Quero ser Mentorr</button>
+                <a href="/">Login</a>
+            </div>
+        </div>
+        <!-- end row 1-->
+
+        <!-- row 2-->
+         <div class="md:border h-14 flex items-center">
+            <div class="container mx-auto">
+                <nav class="hidden md:block">
+                    <ul class="flex justify-between">
+                        <li>
+                            <a href="/">UX/UI</a>
+                        </li>
+                        <li>
+                            <a href="/">Front-end</a>
+                        </li>
+                        <li>
+                            <a href="/">Back-end</a>
+                        </li>
+                        <li>
+                            <a href="/">DevOps</a>
+                        </li>
+                        <li>
+                            <a href="/">Agile</a>
+                        </li>
+                        <li>
+                            <a href="/">Cloud Computing</a>
+                        </li>
+                        <li>
+                            <a href="/">Inteligência Artificial</a>
+                        </li>
+                        <li>
+                            <a href="/">Segurança da Informação</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu w-6 mx-auto flex flex-col justify-center md:hidden">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+         </div>
+         <!-- end row 2-->
+    </header>
+
+    <section class="flex gap-16 pt-10 lg:px-10 md:px-8 sm:px-6">
+        <div class="flex flex-col bg-white m-2 p-1 gap-10 min-w-72">
+            <div class="flex border-2 rounded p-2">
+                <input class="focus:outline-none" type="text" placeholder="Busque por habilidades">
+                <img class="ml-auto" src="./img/pesquisa.svg">
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <label for="#">Área de Conhecimento</label>
+                    <div class="flex border-2 rounded p-2">
+                        <input class="focus:outline-none" type="text">
+                        <img class="ml-auto" src="./img/pesquisa.svg">
+                    </div>
+                </div>
+
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Produto</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>UX/UI</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Web</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Startup</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Gestão e negócios</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Finanças</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Tecnologia</p>
+                </div>
+            </div>
+            
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <label for="#">Cargo</label>
+                    <div class="flex border-2 rounded p-2">
+                        <input class="focus:outline-none" type="text">
+                        <img class="ml-auto" src="./img/pesquisa.svg">
+                    </div>
+                </div>
+
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>CEO</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>CTO</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Sênior</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Pleno</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Consultor</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Professor</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <label for="#">Empresas</label>
+                    <div class="flex border-2 rounded p-2">
+                        <input class="focus:outline-none" type="text">
+                        <img class="ml-auto" src="./img/pesquisa.svg">
+                    </div>
+                </div>
+
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Google</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Amazon</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Mercado Livre</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Instagram</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Delta Piscinas</p>
+                </div>
+                <div class="flex gap-3">
+                    <button class="border-2 rounded p-3"></button>
+                    <p>Unifap</p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="flex flex-col ml-auto gap-10">
+            <div class="border-2 rounded p-5 flex gap-8">
+                <div>
+                    <figure>
+                        <img class="min-w-[140px]" src="./img/homi.png">
+                    </figure>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-2">
+                        <p class="font-bold text-lg">John P. Santos</p>
+                        <p>Cientista de Dados Sênior na Amazon</p>
+                        <div>
+                            <img src="./img/stars.svg">
+                        </div>
+                        <p>Sou John P. Santos, cientista de dados sênior na Amazon com mais de oito anos de experiência em machine learning e 
+                            análise preditiva. Ao longo da minha trajetória, tenho me dedicado a transformar dados em estratégias que impactam 
+                            diretamente a experiência dos clientes e os resultados da empresa. Com mestrado em Ciência da Computação e 
+                            especialização em IA, meu foco é sempre resolver problemas complexos de forma criativa e eficiente. Tenho orgulho de 
+                            liderar e orientar equipes talentosas, cultivando um ambiente de inovação e precisão analítica em todos os projetos 
+                            em que atuo.</p>
+                            <div class="mt-4">
+                                <ul class="flex gap-2 flex-wrap leading-6 text-sm">
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">infraestrutura</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">tecnologia</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">ux/ui design</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">negócios</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                </ul>
+                                <div class="flex mt-4 justify-between">
+                                    <div class="flex flex-row items-baseline">
+                                        <img class="w-6" src="./img/cifrao.svg">
+                                        <p class="text-4xl font-bold">R$ 800,00</p>
+                                        <p>/mês</p>
+                                    </div>
+                                    <button class="bg-blue-600 text-white px-8 py-3 font-semibold rounded-lg">Ver Perfil Completo</button>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="border-2 rounded p-5 flex gap-8">
+                <div>
+                    <figure>
+                        <img class="min-w-[140px]" src="./img/homi.png">
+                    </figure>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-2">
+                        <p class="font-bold text-lg">John P. Santos</p>
+                        <p>Cientista de Dados Sênior na Amazon</p>
+                        <div>
+                            <img src="./img/stars.svg">
+                        </div>
+                        <p>Sou John P. Santos, cientista de dados sênior na Amazon com mais de oito anos de experiência em machine learning e 
+                            análise preditiva. Ao longo da minha trajetória, tenho me dedicado a transformar dados em estratégias que impactam 
+                            diretamente a experiência dos clientes e os resultados da empresa. Com mestrado em Ciência da Computação e 
+                            especialização em IA, meu foco é sempre resolver problemas complexos de forma criativa e eficiente. Tenho orgulho de 
+                            liderar e orientar equipes talentosas, cultivando um ambiente de inovação e precisão analítica em todos os projetos 
+                            em que atuo.</p>
+                            <div class="mt-4">
+                                <ul class="flex gap-2 flex-wrap leading-6 text-sm">
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">infraestrutura</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">tecnologia</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">ux/ui design</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">negócios</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                </ul>
+                                <div class="flex mt-4 justify-between">
+                                    <div class="flex flex-row items-baseline">
+                                        <img class="w-6" src="./img/cifrao.svg">
+                                        <p class="text-4xl font-bold">R$ 800,00</p>
+                                        <p>/mês</p>
+                                    </div>
+                                    <button class="bg-blue-600 text-white px-8 py-3 font-semibold rounded-lg">Ver Perfil Completo</button>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="border-2 rounded p-5 flex gap-8 mb-20">
+                <div>
+                    <figure>
+                        <img class="min-w-[140px]" src="./img/homi.png">
+                    </figure>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-2">
+                        <p class="font-bold text-lg">John P. Santos</p>
+                        <p>Cientista de Dados Sênior na Amazon</p>
+                        <div>
+                            <img src="./img/stars.svg">
+                        </div>
+                        <p>Sou John P. Santos, cientista de dados sênior na Amazon com mais de oito anos de experiência em machine learning e 
+                            análise preditiva. Ao longo da minha trajetória, tenho me dedicado a transformar dados em estratégias que impactam 
+                            diretamente a experiência dos clientes e os resultados da empresa. Com mestrado em Ciência da Computação e 
+                            especialização em IA, meu foco é sempre resolver problemas complexos de forma criativa e eficiente. Tenho orgulho de 
+                            liderar e orientar equipes talentosas, cultivando um ambiente de inovação e precisão analítica em todos os projetos 
+                            em que atuo.</p>
+                            <div class="mt-4">
+                                <ul class="flex gap-2 flex-wrap leading-6 text-sm">
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">infraestrutura</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">tecnologia</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">ux/ui design</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">negócios</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">startups</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">financeiro</a>
+                                    </li>
+                                    <li>
+                                        <a class="bg-gray-200 py-1 px-3 rounded-full" href="/">gestão</a>
+                                    </li>
+                                </ul>
+                                <div class="flex mt-4 justify-between">
+                                    <div class="flex flex-row items-baseline">
+                                        <img class="w-6" src="./img/cifrao.svg">
+                                        <p class="text-4xl font-bold">R$ 800,00</p>
+                                        <p>/mês</p>
+                                    </div>
+                                    <button class="bg-blue-600 text-white px-8 py-3 font-semibold rounded-lg">Ver Perfil Completo</button>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+
+    <section class="bg-slate-900 text-white py-14">
+        <div class="container mx-auto flex flex-col justify-center items-center gap-10">
+            <h4 class="md:text-3xl font-bold">Que tal monetizar sua experiência?</h4>
+            <h3 class="text-2xl md:text-4xl font-bold">Torne-se um mentorr especializado</h3>
+            <div class="flex flex-col md:flex-row gap-6">
+                <button class="bg-blue-600 px-12 font-bold py-4 rounded-lg hover:bg-blue-700">Quero ser Mentorr</button>
+                <button class="font-bold border border-blue-600 px-12 py-4 rounded-lg hover:bg-blue-600">Quero ser aluno</button>
+            </div>
+            <p class="text-slate-300">Não é necessário cartão de crédito.</p>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-white">
+        <div class="container mx-auto flex flex-col items-center gap-12 md:gap-0 md:items-start md:flex-row py-14 justify-between">
+            <div class="flex items-center">
+                <figure>
+                    <img src="img/logo-white.svg" alt="Logo Mentorr">
+                </figure>
+            </div>
+            <div>
+                <h5 class="text-blue-600 font-bold text-md mb-4">Institucional</h5>
+                <ul class="text-slate-300 text-md flex flex-col gap-4">
+                    <li>
+                        <a href="/">Como funciona</a>
+                    </li>
+                    <li>
+                        <a href="/">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="/">Investidores</a>
+                    </li>
+                    <li>
+                        <a href="/">Código de ética</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-blue-600 font-bold text-md mb-4">Institucional</h5>
+                <ul class="text-slate-300 text-md flex flex-col gap-4">
+                    <li>
+                        <a href="/">Como funciona</a>
+                    </li>
+                    <li>
+                        <a href="/">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="/">Investidores</a>
+                    </li>
+                    <li>
+                        <a href="/">Código de ética</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-blue-600 font-bold text-md mb-4">Institucional</h5>
+                <ul class="text-slate-300 text-md flex flex-col gap-4">
+                    <li>
+                        <a href="/">Como funciona</a>
+                    </li>
+                    <li>
+                        <a href="/">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="/">Investidores</a>
+                    </li>
+                    <li>
+                        <a href="/">Código de ética</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-blue-600 font-bold text-md mb-4">Institucional</h5>
+                <ul class="text-slate-300 text-md flex flex-col gap-4">
+                    <li>
+                        <a href="/">Como funciona</a>
+                    </li>
+                    <li>
+                        <a href="/">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="/">Investidores</a>
+                    </li>
+                    <li>
+                        <a href="/">Código de ética</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
